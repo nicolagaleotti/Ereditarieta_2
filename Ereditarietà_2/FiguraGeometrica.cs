@@ -2,7 +2,10 @@
 
 namespace Ereditarietà_2
 {
-    public class FiguraGeometrica
+    public abstract class FiguraGeometrica
     {
+        public abstract double CalcolaPerimetro();
+
+        public abstract double CalcolaArea();
     }
 }
